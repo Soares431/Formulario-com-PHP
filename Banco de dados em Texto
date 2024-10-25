@@ -1,0 +1,7 @@
+CREATE TABLE cliente (
+    nome VARCHAR(100) NOT NULL,
+    peso VARCHAR(100) NOT NULL,
+    altura VARCHAR(100) NOT NULL,
+    telefone VARCHAR(15) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE
+);
